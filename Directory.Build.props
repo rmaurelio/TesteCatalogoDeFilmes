@@ -1,0 +1,29 @@
+<!--
+  Configurações globais de build para todos os projetos da solution CatalogoDeMidia.
+  
+  Este arquivo é automaticamente importado pelo MSBuild em todos os projetos .NET
+  que estiverem nesta pasta ou em subpastas.
+  
+  Configurações definidas:
+  - LangVersion: Define a versão da linguagem C# a ser utilizada.
+    Usamos "preview" para habilitar C# 14, que está em preview no .NET 10.
+  - TargetFramework: Define o framework alvo como .NET 10.
+  - ImplicitUsings: Habilita os usings implícitos padrão do .NET.
+  - Nullable: Habilita o contexto de referência nula (nullable reference types).
+  - TreatWarningsAsErrors: Trata avisos como erros para garantir qualidade do código.
+-->
+<Project>
+  <PropertyGroup>
+    <!-- Define a versão da linguagem C# como preview para habilitar recursos do C# 14 -->
+    <LangVersion>preview</LangVersion>
+    
+    <!-- Define o framework alvo como .NET 10 -->
+    <TargetFramework>net10.0</TargetFramework>
+    
+    <!-- Habilita os usings implícitos padrão do .NET -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- Habilita o contexto de referência nula (nullable reference types) -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>

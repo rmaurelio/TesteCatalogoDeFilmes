@@ -1,0 +1,103 @@
+# =============================================================================
+# .gitignore para projetos .NET
+# Configurado para uso com Visual Studio 2026 Insiders e .NET 10
+# =============================================================================
+
+# -----------------------------------------------
+# Pastas de build
+# -----------------------------------------------
+bin/
+obj/
+out/
+
+# -----------------------------------------------
+# Pacotes NuGet
+# -----------------------------------------------
+*.nupkg
+**/packages/
+!.nuget/packages/
+
+# -----------------------------------------------
+# Arquivos de usuário do Visual Studio
+# -----------------------------------------------
+*.user
+*.userosscache
+*.suo
+*.vs/
+.vscode/
+*.rsuser
+
+# -----------------------------------------------
+# Arquivos de cache do MSBuild/Visual Studio
+# -----------------------------------------------
+*.cache
+*.log
+*.xlf.lcl
+launchSettings.json.user
+
+# -----------------------------------------------
+# Arquivos de publish e deploy
+# -----------------------------------------------
+publish/
+*.pubxml.user
+
+# -----------------------------------------------
+# Arquivos do ReSharper e JetBrains Rider
+# -----------------------------------------------
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# -----------------------------------------------
+# Arquivos de teste
+# -----------------------------------------------
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# -----------------------------------------------
+# Arquivos temporários
+# -----------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# -----------------------------------------------
+# Arquivos do sistema operacional
+# -----------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -----------------------------------------------
+# Arquivos de debug
+# -----------------------------------------------
+*.pdb
+*.ilk
+*.meta
+*.ipdb
+*.iobj
+
+# -----------------------------------------------
+# Entity Framework Core - Migrações geradas (manter!)
+# Nota: Migrações devem ser versionadas, portanto NÃO ignorar a pasta Migrations
+# -----------------------------------------------
+
+# -----------------------------------------------
+# Arquivos de configuração local (sensíveis)
+# -----------------------------------------------
+appsettings.Local.json
+appsettings.local.json
+*.Development.local.json
+
+# -----------------------------------------------
+# Secrets e certificados
+# -----------------------------------------------
+*.pfx
+*.p12
+*.cer
+secrets.json
