@@ -1,0 +1,10 @@
+{
+  // Configuração global do SDK .NET para a solution CatalogoDeMidia
+  // Define que a versão do SDK a ser utilizada deve ser .NET 10 ou superior.
+  // O parâmetro "rollForward" com valor "latestMinor" permite usar versões menores mais recentes,
+  // mantendo a compatibilidade com futuras atualizações do .NET 10.
+  "sdk": {
+    "version": "10.0.100",
+    "rollForward": "latestMinor"
+  }
+}
