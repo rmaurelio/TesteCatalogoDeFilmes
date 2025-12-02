@@ -1,0 +1,4 @@
+// TODO: Implementar configurações de serviços e extensões de DI em uma issue futura
+// Exemplos:
+// - ConfiguracaoServicosExtensoes.cs - Métodos de extensão para configurar serviços
+// - ConfiguracaoSwagger.cs - Configurações específicas do Swagger

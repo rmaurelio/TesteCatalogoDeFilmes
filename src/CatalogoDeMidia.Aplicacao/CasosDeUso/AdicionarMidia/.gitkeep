@@ -1,0 +1,3 @@
+// TODO: Implementar AdicionarMidiaUseCase em uma issue futura
+// Interface: IAdicionarMidiaUseCase
+// Método: Task<MidiaRespostaDto> ExecutarAsync(AdicionarMidiaRequisicaoDto requisicao, CancellationToken cancellationToken = default)

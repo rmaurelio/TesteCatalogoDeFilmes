@@ -1,0 +1,5 @@
+// TODO: Implementar DTOs de requisição em uma issue futura
+// DTOs previstos:
+// - AdicionarMidiaRequisicaoDto
+// - ListarMidiasRequisicaoDto
+// - AvaliarMidiaRequisicaoDto

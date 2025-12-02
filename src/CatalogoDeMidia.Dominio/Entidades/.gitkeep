@@ -1,0 +1,15 @@
+// TODO: Implementar a entidade Midia em uma issue futura
+// Propriedades previstas:
+// - Id (Guid)
+// - Titulo (string)
+// - AnoLancamento (int)
+// - Tipo (TipoMidia)
+// - Genero (string?)
+// - Nota (decimal?)
+// - Assistido (bool)
+// - DataCriacao (DateTimeOffset)
+// - DataAtualizacao (DateTimeOffset)
+// Métodos previstos:
+// - DefinirNota(decimal novaNota)
+// - MarcarComoAssistido()
+// - AtualizarDadosBasicos(...)

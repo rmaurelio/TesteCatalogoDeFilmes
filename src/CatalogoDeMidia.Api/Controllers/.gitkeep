@@ -1,0 +1,5 @@
+// TODO: Implementar MidiasController em uma issue futura
+// Endpoints previstos:
+// - POST /midias → Chama IAdicionarMidiaUseCase
+// - GET /midias → Chama IListarMidiasUseCase com filtros via query string
+// - POST /midias/{id}/avaliar → Chama IAvaliarMidiaUseCase
