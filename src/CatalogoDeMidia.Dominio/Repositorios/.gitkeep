@@ -1,0 +1,7 @@
+// TODO: Implementar a interface IMidiaRepositorio em uma issue futura
+// Métodos previstos:
+// - Task AdicionarAsync(Midia midia, CancellationToken cancellationToken = default)
+// - Task AtualizarAsync(Midia midia, CancellationToken cancellationToken = default)
+// - Task<Midia?> ObterPorIdAsync(Guid id, CancellationToken cancellationToken = default)
+// - Task<IReadOnlyList<Midia>> ObterPorTituloAsync(string titulo, CancellationToken cancellationToken = default)
+// - Task<IReadOnlyList<Midia>> ListarAsync(...) com parâmetros de filtro

@@ -1,0 +1,4 @@
+// TODO: Implementar configurações do servidor MCP em uma issue futura
+// Exemplos:
+// - ConfiguracaoMcpServer.cs - Configurações específicas do servidor MCP
+// - ConfiguracaoServicosExtensoes.cs - Métodos de extensão para configurar serviços

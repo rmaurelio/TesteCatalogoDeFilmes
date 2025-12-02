@@ -1,0 +1,5 @@
+// TODO: Implementar interfaces dos casos de uso em uma issue futura
+// Interfaces previstas:
+// - IAdicionarMidiaUseCase
+// - IListarMidiasUseCase
+// - IAvaliarMidiaUseCase

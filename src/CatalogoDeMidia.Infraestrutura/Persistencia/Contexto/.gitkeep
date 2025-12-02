@@ -1,0 +1,4 @@
+// TODO: Implementar CatalogoDeMidiaDbContext em uma issue futura
+// Deve derivar de DbContext
+// Propriedade prevista: DbSet<Midia> Midias { get; set; }
+// Configuração: Mapear entidade Midia para tabela

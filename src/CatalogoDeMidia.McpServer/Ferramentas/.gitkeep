@@ -1,0 +1,7 @@
+// TODO: Implementar FerramentasCatalogoDeMidia em uma issue futura
+// Classe responsável por expor os métodos MCP como ferramentas
+// Métodos previstos:
+// - Task<MidiaRespostaDto> AdicionarMidiaAsync(...) → Tool: adicionar_midia
+// - Task<IReadOnlyList<MidiaRespostaDto>> ListarMidiasAsync(...) → Tool: listar_midias
+// - Task<MidiaRespostaDto> AvaliarMidiaAsync(...) → Tool: avaliar_midia
+// Cada método deve chamar o caso de uso correspondente na camada de Aplicação

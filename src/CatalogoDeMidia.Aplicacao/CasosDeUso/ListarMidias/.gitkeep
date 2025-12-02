@@ -1,0 +1,3 @@
+// TODO: Implementar ListarMidiasUseCase em uma issue futura
+// Interface: IListarMidiasUseCase
+// Método: Task<IReadOnlyList<MidiaRespostaDto>> ExecutarAsync(ListarMidiasRequisicaoDto filtros, CancellationToken cancellationToken = default)
